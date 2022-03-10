@@ -12,7 +12,7 @@
 	<body>
 		<header>
 			<img src="https://nothingelse.fr/img/logo_black.png">
-			<h1>Applications</h1>
+			<h1>QRCode generator</h1>
 		</header>
 		<main>
 			<div class="container mb">
