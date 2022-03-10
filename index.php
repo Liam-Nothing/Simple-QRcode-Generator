@@ -8,6 +8,7 @@
 		<link rel="stylesheet prefetch" href='https://fonts.googleapis.com/css?family=Roboto' type='text/css'>
 		<link rel="stylesheet prefetch" href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow' type='text/css'>
 		<link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300" type="text/css">
+		<title>QRCode generator | By NothingElse.fr</title>
 	</head>
 	<body>
 		<header>
