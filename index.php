@@ -15,9 +15,34 @@
 			<h1>Applications</h1>
 		</header>
 		<main>
-			<div class="container mb transparent">
-				<a href="progress_script"><button class="nav-button">Progress script</button></a>
-				<a href="qrcode_generator"><button class="nav-button">QR code generator</button></a>
+			<div class="container mb">
+				<img id="qrcode_image" src="https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl=https://nothingelse.fr/&choe=UTF-8" />
+				<input type="text" id="chl" placeholder="https://nothingelse.fr/"/>
+				<div class="same_line">
+					<p>Size :</p>
+					<select id="chs">
+						<option value="150" select>150</option>
+						<option value="300">300</option>
+						<option value="500">500</option>
+					</select>
+				</div>
+				<div class="same_line">
+					<p>Encoding :</p>
+					<select id="choe">
+						<option value="UTF-8" select>UTF-8</option>
+						<option value="Shift_JIS">Shift_JIS</option>
+						<option value="ISO-8859-1">ISO-8859-1</option>
+					</select>
+				</div>
+				<div class="same_line">
+					<p>Error correction :</p>
+					<select id="chld">
+						<option value="L" select>L</option>
+						<option value="M">M</option>
+						<option value="Q">Q</option>
+						<option value="H">H</option>
+					</select>
+				</div>
 			</div>
 		</main>
 		<footer>
